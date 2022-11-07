@@ -6,7 +6,7 @@ const UserList = ({ users }) => {
         <>
             {users &&
                 users.map(user => (
-                    <Link key={user.id} to={`/users/${user.id}`}>
+                    <Link key={user.id} to={`/TaskUsers/${user.id}`}>
                         <h2>{user.name}</h2>
                     </Link>
                 ))}

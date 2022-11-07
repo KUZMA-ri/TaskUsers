@@ -47,7 +47,7 @@ function App() {
 
       <Routes>
         <Route path='/TaskUsers' element={<UserList users={filteredUsers ? filteredUsers : users}/>} />
-        <Route path='users/:id' element={<UserItem />} />
+        <Route path='/TaskUsers/:id' element={<UserItem />} />
       </Routes>
     </>
   );
