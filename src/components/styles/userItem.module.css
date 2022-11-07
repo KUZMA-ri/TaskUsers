@@ -1,0 +1,10 @@
+.list_container {
+    background-color: azure;
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.name {
+    font-size: 22px;
+}
